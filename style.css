@@ -35,7 +35,7 @@ body
   {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: #000;
     -webkit-box-flex: below 1px linear-gradient(transparent, transparent, #0006);
