@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FELIZ DIA DOS NAMORADOS</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="aplicae.css">
+    </head>
+    <body>
+      <main>
+        <h1 class="dianamor"> FELIZ DIA DOS NAMORADOS</h1>
+        <!--<div class="fotinha">
+            <img src="umdia.png" alt="fotocorrida">-->
+        </div>
+        
+        <h1 class="mozao"> Para minha mozão </h1>
+    
+        <p>Quem diria que eu precisaria viajar por tantos quilometros para conhecer alguém tão especial como você, e quem diria que você viajaria para tão longe para manter esse relacinamento vivo, essa é a loucura do amor, obrigado por todo esse tempo que tem se dedicado a nós.</p>
+    
+        <div class="amor">
+            <h2>TE AMO</h2>
+    
+         </div>
+        </main>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image1.png"></div>
+              <div class="swiper-slide"><img src="image2.jpg"></div>
+              <div class="swiper-slide"><img src="image3.jpg"></div>
+              <div class="swiper-slide"><img src="image4.jpg"></div>
+              <div class="swiper-slide"><img src="image5.jpg"></div>
+              <div class="swiper-slide"><img src="image6.jpg"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows : true,
+              },
+              loop: true,
+              autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+              
+            });
+          </script>
+    </body>
+</html>
