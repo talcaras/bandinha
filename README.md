@@ -1,1 +1,1 @@
-# https://talcaras.github.io/bandinha/.
+# https://talcaras.github.io/talcaras/.
